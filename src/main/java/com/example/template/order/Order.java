@@ -43,7 +43,7 @@ public class Order {
     private void orderCheck(){
         if( productId == null ){
             throw new RuntimeException();
-        }
+        } 
 
         int price = 0;
         String productName = null;
